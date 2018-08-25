@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text editor</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" href="res/logo.png" type="image/png">
+	</head>
+	<body>
+
+	<div class="all">
+		<d class="title">Text editor</d><br><br><br>
+	<input type="button" value="B" onclick="mod_selection('b')" />
+	<input type="button" value="I" onclick="mod_selection('i')" />
+	<input type="button" value="U" onclick="mod_selection('u')" />
+	
+	<!--comboboxes-->
+	<select onchange="changeFont()" id="ftype">
+  <option value="Times New Roman">Times New Roman</option>
+  <option value="Arial">Arial</option>
+  <option value="Courier New">Courier</option>
+  <option value="Lucida Console">Lucida</option>
+	</select>
+	<select onchange="changeSize()"id="fsize">
+  <option value="20px">10</option>
+  <option value="30px">20</option>
+  <option value="40px">30</option>
+  <option value="50px">40</option>
+	</select>
+	<select onchange="changeColor()"id="fcolor">
+  <option value="black">Black</option>
+  <option value="blue">Blue</option>
+  <option value="red">Red</option>
+  <option value="green">Green</option>
+	</select>
+
+<br/><br>
+
+	<textarea class="text_edit" id="my_text">Write your text here.</textarea><br/>
+	</div>
+
+
+	</body>
+	<script src="js/main.js"></script>
+</html>

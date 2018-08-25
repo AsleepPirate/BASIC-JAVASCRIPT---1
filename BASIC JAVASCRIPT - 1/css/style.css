@@ -1,0 +1,26 @@
+.text_edit{
+	width: 900px;
+	height: 300px;
+	resize: none;
+	font-size: 20px;
+}
+
+.all{
+	border-style: double;
+	border-color: grey;
+	background-color: #BCBFE3;
+	padding-top: 30px;
+	padding-right: 100px;
+	padding-bottom:30px;
+	padding-left:100px;
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-left:100px;
+}
+.title{
+	font-size: 30px;
+	color: #0D1469;
+	margin-left:350px;
+	font-weight: bold;
+	font-family:impact;
+}
